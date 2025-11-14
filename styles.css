@@ -124,7 +124,7 @@ h2{margin-top:0; font-size:1.5rem; color:var(--text)}
 .contact-info li{margin:0.6rem 0; color:var(--muted)}
 .contact-form label{display:block; margin-bottom:0.8rem}
 .contact-form input, .contact-form textarea{
-  width:100%; padding:0.6rem; border-radius:8px; border:1px solid rgba(255,255,255,0.04);
+  width:100%; padding:0.6rem; border-radius:8px; border:1px solid #b8860b;
   background:transparent; color:var(--text);
 }
 .btn{display:inline-block; background:linear-gradient(90deg,var(--accent),var(--accent-2)); color:#0a0a0a; padding:0.55rem 0.9rem; border-radius:8px; border:none; cursor:pointer}
