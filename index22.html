@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <meta name="description" content="Personal portfolio of Tapasya — projects, skills and contact."/>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Replace favicon if you want 
+  <link rel="icon" href="assets/images/profile.jpg" /> -->
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Tapasya</a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Education & Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cta" href="#contact">Contact Me</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hello — I'm <span class="accent">TAPASYA</span></h1>
+          <p class="lead">I am skilled in web development, embedded systems and problem solving. I can build clean, accessible websites and projects.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">See my work</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+
+          <div class="social">
+            <a href="https://www.linkedin.com/in/tapasya-10b79936b" rel="noopener">LinkedIn</a> |
+            <a href="https://github.com/tapasya-22" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img src="tapasya.jpeg" alt="profile photo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>I am a 1st year student at DELHI TECHNOLOGICAL UNIVERSITY. I enjoy building web projects, learning new technologies and solving real-world problems. I’m detail-oriented and love clean design.</p>
+            <ul class="details">
+              <li><strong>Location:</strong> City, Country</li>
+              <li><strong>Email:</strong> <a href="mailto:tapasya.sharma.se@gmail.com">tapasya.sharma.se@gmail.com</a></li>
+              <li><strong>LinkedIn:</strong> <a href="linkedin.com/in/tapasya-10b79936b" target="_blank">yourprofile</a></li>
+            </ul>
+          </div>
+          <div class="skills-card">
+            <h3>Quick facts</h3>
+            <p><strong>Interests:</strong> Web dev, IoT, Competitive programming</p>
+            <p><strong>Tools:</strong> VSCode, Git, Figma</p>
+            <p><strong>Languages:</strong> JAVA ,HTML, CSS, JavaScript, C</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Education & Skills</h2>
+        <div class="edu-skills">
+          <div class="education">
+            <h3>Education</h3>
+            <p><strong>Delhi Technological University</strong> — B.Tech in Computer Science and Engineering (2025 - 2029)</p>
+            <p><strong>Dr BR Ambedkar School of Specialized Excellence</strong> — DBSE, 2024/p>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-list">
+              <div class="skill">
+                <label>HTML & CSS</label>
+                <div class="meter"><span style="width:90%"></span></div>
+              </div>
+              <div class="skill">
+                <label>JavaScript</label>
+                <div class="meter"><span style="width:75%"></span></div>
+              </div>
+              <div class="skill">
+                <label>C / Embedded</label>
+                <div class="meter"><span style="width:70%"></span></div>
+              </div>
+              <div class="skill">
+                <label>React (basics)</label>
+                <div class="meter"><span style="width:55%"></span></div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-sub">Brief descriptions for each project — include links to live demos or GitHub repos.</p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/images/project1.jpg" alt="Project 1 screenshot">
+            <div class="project-content">
+              <h3>Project One — Portfolio Website</h3>
+              <p>Personal portfolio built using HTML, CSS, and a bit of JavaScript. Responsive layout with accessible semantics. <strong>Technologies:</strong> HTML, CSS.</p>
+              <div class="project-links">
+                <a href="https://github.com/tapasya-22/projectarticleone" target="_blank">View code</a>
+                <a href="https://tapasya-22.github.io/projectarticleone/" class="btn-small">Live demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project2.jpg" alt="Project 2 screenshot">
+            <div class="project-content">
+              <h3>Project Two — IoT Temperature Monitor</h3>
+              <p>Real-time temperature logging and visualization using an MCU and a simple web dashboard. <strong>Technologies:</strong> C, MQTT, Chart.js.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/project2" target="_blank">View code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/images/project3.jpg" alt="Project 3 screenshot">
+            <div class="project-content">
+              <h3>Project Three — Mini Game</h3>
+              <p>A small browser game made with JavaScript canvas to practice animations and collisions. <strong>Technologies:</strong> JavaScript.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/project3" target="_blank">View code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>I'm open to internships and project collaborations. Send an email or use the form.</p>
+          <ul class="contact-info">
+            <li><strong>Email:</strong> <a href="mailto:you@example.com">you@example.com</a></li>
+            <li><strong>Phone:</strong> +91-XXXXXXXXXX</li>
+            <li><strong>Location:</strong> City, India</li>
+          </ul>
+
+          <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="https://formspree.io/f/yourformid" method="POST">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+          <p class="note">Tip: replace the form `action` with your Formspree endpoint or a server handler.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  
+</body>
+</html>
